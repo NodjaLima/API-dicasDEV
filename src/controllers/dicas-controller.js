@@ -1,4 +1,4 @@
-import ValidaDicas from "../service/validacaoService.js"
+import ValidaDicas from "../service/validacoes-service.js"
 import DbMetodos from "../utils/db-metodos.js"
 
 class DicasController {

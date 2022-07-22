@@ -1,4 +1,4 @@
-import Dicas from "../infra/bd-dicas.js";
+import Dicas from "../infra/dicas-db.js";
 
 class DbMetodos {
   retornoAleatorio() {
