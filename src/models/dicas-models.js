@@ -5,4 +5,4 @@ class DicasModels {
   }
 }
 
-export default DicasModels
+export default DicasModels;

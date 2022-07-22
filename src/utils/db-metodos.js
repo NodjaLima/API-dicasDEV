@@ -1,4 +1,5 @@
 import Dicas from "../infra/dicas-db.js";
+import dicasController from "../controllers/dicas-controller.js";
 
 class DbMetodos {
   retornoAleatorio() {

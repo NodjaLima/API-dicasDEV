@@ -1,3 +1,4 @@
+import DicasModels from "../models/dicas-models.js"
 import ValidaDicas from "../service/validacoes-service.js"
 import DbMetodos from "../utils/db-metodos.js"
 
