@@ -71,6 +71,7 @@ Para inserir uma dica no "banco de dados" use a seguinte rota:
 
 ``http://localhost:3000/
 ``
+
 O body da requisição deve estar na estrutura abaixo:
 
 ``{
@@ -78,6 +79,7 @@ O body da requisição deve estar na estrutura abaixo:
     "autor": "escreva aqui o autor"
 }
 ``
+
 O retorno dessa requisição será um objeto no formato Json com todas as dicas que estejam armazenadas no "banco de dados"
 
 ``[
@@ -117,13 +119,13 @@ O retorno dessa requisição será um objeto no formato Json com todas as dicas 
         "dica": "Continue com o processo de aprendizagem",
         "autor": "https://desenvolvimentoparaweb.com/miscelanea/10-dicas-desenvolvedores-web-iniciantes-devem-saber/"
     },
-    {},
     {
         "dica": "escreva aqui a dica",
         "autor": "escreva aqui o autor"
     }
 ]
 ``
+
 ## Como contribuir para esse projeto
 
 Faça um fork do projeto.
