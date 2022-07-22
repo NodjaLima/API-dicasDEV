@@ -25,11 +25,11 @@ Para verificar o funcionamento do projeto, é preciso fazer um clone desse repos
 
 Abra o terminal e em uma pasta de fácil acesso digite o comando abaixo:
 
-> git clone https://github.com/NodjaLima/API-dicasDEV.git
+``` git clone https://github.com/NodjaLima/API-dicasDEV.git```
 
 Após realizado o clone do repositório, acesse o terminal e digite o comando para instalar as dependências necessárias. 
 
-> npm install 
+ ```npm install``` 
 
 Agora é possível testar a aplicação e ainda reutilizar o codigo fonte, modificando conforme necessário.
 
@@ -38,15 +38,15 @@ Agora é possível testar a aplicação e ainda reutilizar o codigo fonte, modif
 
 É necessário ter um IDE. Para a execução desse projeto, eu utilizei o Visual Studio Code. Para mais informações e download acesse:
 
-> https://code.visualstudio.com/
+``https://code.visualstudio.com/``
 
 Para poder testar a aplicação, foi utlizado o NodeJs (versão v16.15.1).
 
-> https://nodejs.org/en/
+``https://nodejs.org/en/``
 
 Para verificar o funcionamento da API foi utlizado o Postman. 
 
-> https://www.postman.com/downloads/
+``https://www.postman.com/downloads/``
 
 ## Exemplos de Rotas
 
@@ -56,31 +56,31 @@ Esse projeto possui opções de rotas para os verbos HTTP GET e POST.
 
 Para retornar uma dica aleatória dentre as que estão no "banco de dados"
 
-> http://localhost:3000/
+``http://localhost:3000/``
 
 O retorno será:
 
-> {
+``{
     "dica": "Acesse “redes de conhecimentos”",
     "autor": "https://desenvolvimentoparaweb.com/miscelanea/10-dicas-desenvolvedores-web-iniciantes-devem-saber/"
 }
-
+``
 ### POST
 
 Para inserir uma dica no "banco de dados" use a seguinte rota:
 
-> http://localhost:3000/
-
+``http://localhost:3000/
+``
 O body da requisição deve estar na estrutura abaixo:
 
-> {
+``{
     "dica": "escreva aqui a dica",
     "autor": "escreva aqui o autor"
 }
-
+``
 O retorno dessa requisição será um objeto no formato Json com todas as dicas que estejam armazenadas no "banco de dados"
 
-> [
+``[
     {
         "dica": "Decida quais habilidades você quer",
         "autor": "https://desenvolvimentoparaweb.com/miscelanea/10-dicas-desenvolvedores-web-iniciantes-devem-saber/"
@@ -123,7 +123,7 @@ O retorno dessa requisição será um objeto no formato Json com todas as dicas 
         "autor": "escreva aqui o autor"
     }
 ]
-
+``
 ## Como contribuir para esse projeto
 
 Faça um fork do projeto.
