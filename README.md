@@ -53,7 +53,7 @@ Depois de tudo instalado, é preciso subir o sevridor, que está configurado uti
 
 ``` npm start ```
 
-Caso prefira usar o Nodemon, para testar a aplicação enquanto ajusta o código, no lugar do comando anterior, você deve usar o comendo:
+Caso prefira usar o Nodemon, para testar a aplicação enquanto ajusta o código, no lugar do comando anterior, você deve usar o comando:
 
 ``` npm run dev ```
 
@@ -64,7 +64,7 @@ Esse projeto possui opções de rotas para os verbos HTTP GET e POST.
 
 ### GET 
 
-Para retornar uma dica aleatória dentre as que estão no "banco de dados"
+Para retornar uma dica aleatória dentre as que estão no "banco de dados", utilize a seguinte rota:
 
 ``http://localhost:3000/``
 
@@ -90,7 +90,7 @@ O body da requisição deve estar na estrutura abaixo:
 }
 ``
 
-O retorno dessa requisição será um objeto no formato Json com todas as dicas que estejam armazenadas no "banco de dados"
+O retorno dessa requisição será um objeto no formato Json com todas as dicas que estejam armazenadas no "banco de dados", conforme abaixo:
 
 ``[
     {
@@ -145,6 +145,12 @@ Crie uma nova branch com as suas alterações: git checkout -b my-feature .
 Salve as alterações e crie uma mensagem de commit contando o que você fez: git commit -m "feature: My new feature".
 
 Envie as suas alterações: git push origin my-feature.
+
+## Desafio
+
+Essa API possui rotas para os verbos GET e POST. Você consegue criar novos metodos para essas rotas, ou ainda, adicionar rotas e metodos para dos demais verbos HTTP? 
+
+Caso queira trocar uma ideia a respeito desse assunto, estou disponível para aprendermos juntos.
 
 ## Contato 
 
