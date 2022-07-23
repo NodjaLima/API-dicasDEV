@@ -2,36 +2,21 @@
 
 ## Sobre o projeto
 
-Esse projeto é o resultado dos estudos realizados no BootCamp da Resília Educação, sendo este a exigencia de entreda da Sprint 2 do módulo 4. 
+Esse projeto é o resultado dos estudos realizados no BootCamp da Resília Educação, sendo este a exigência de entreda da Sprint 2 do módulo 4. 
 
-O desafio foi a construir a uma API no modelo REST, explorando o CRUD, que fosse capaz de receber e armazenar dicas imputadas atravez da corpo da requisição e pudesse deveolver ao usuário uma dica aleatória dentre aquelas armazenadas. 
+O desafio foi construir a uma API no modelo REST, explorando o CRUD, que fosse capaz de receber e armazenar dicas imputadas através do corpo da requisição e pudesse devolver ao usuário uma dica aleatória dentre aquelas armazenadas. 
 
-Durante esse projeto, foi possível explorar o assunto API REST, tendo executado de maneira funcional os metodos GET e POST para as entidades Usuários e Tarefas. 
+Durante esse projeto, foi possível explorar o assunto API REST, tendo executado de maneira funcional os metodos GET e POST para a endidade Dicas e seu atribudos (dica e autor). 
 
 ## Tecnologias e metodologias utilizadas
 
 - Javascript
 - NodeJs
 - Express
+- Nodemon
 - API REST
 - MVC
 - CRUD
-
-## Como executar o projeto
-
-O equipamento usado para o desenvimento dessa API utiliza Windowns 11 versão 21H2.
-
-Para verificar o funcionamento do projeto, é preciso fazer um clone desse repositorio. 
-
-Abra o terminal e em uma pasta de fácil acesso digite o comando abaixo:
-
-``` git clone https://github.com/NodjaLima/API-dicasDEV.git```
-
-Após realizado o clone do repositório, acesse o terminal e digite o comando para instalar as dependências necessárias. 
-
- ```npm install``` 
-
-Agora é possível testar a aplicação e ainda reutilizar o codigo fonte, modificando conforme necessário.
 
 
 ### Pré-requisitos
@@ -47,6 +32,31 @@ Para poder testar a aplicação, foi utlizado o NodeJs (versão v16.15.1).
 Para verificar o funcionamento da API foi utlizado o Postman. 
 
 ``https://www.postman.com/downloads/``
+
+## Como executar o projeto
+
+O equipamento usado para o desenvimento dessa API utiliza Windowns 11 versão 21H2.
+
+Para verificar o funcionamento do projeto, é preciso fazer um clone desse repositorio. 
+
+Abra o terminal e em uma pasta de fácil acesso digite o comando abaixo:
+
+``` git clone https://github.com/NodjaLima/API-dicasDEV.git ```
+
+Após realizado o clone do repositório, acesse o terminal e digite o comando para instalar as dependências necessárias. 
+
+ ``` npm install ``` 
+
+Agora é possível testar a aplicação e ainda reutilizar o codigo fonte, modificando conforme necessário.
+
+Depois de tudo instalado, é preciso subir o sevridor, que está configurado utilizando Express, no arquivo app.js, que se encontra na raiz do projeto. O comando para tal ação é:
+
+``` npm start ```
+
+Caso prefira usar o Nodemon, para testar a aplicação enquanto ajusta o código, no lugar do comando anterior, você deve usar o comendo:
+
+``` npm run dev ```
+
 
 ## Exemplos de Rotas
 
@@ -138,7 +148,7 @@ Envie as suas alterações: git push origin my-feature.
 
 ## Contato 
 
-Nodja Lima https://github.com/NodjaLima
+Nodja Lima https://www.linkedin.com/in/nodjamoamal/
 
 Vamos codar!
 
