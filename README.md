@@ -43,6 +43,10 @@ Abra o terminal e em uma pasta de fácil acesso digite o comando abaixo:
 
 ``` git clone https://github.com/NodjaLima/API-dicasDEV.git ```
 
+Utilize o comando abaixo para acessar a pasta raiz do projeto:
+
+``` cd API-dicasDEV ```
+
 Após realizado o clone do repositório, acesse o terminal e digite o comando para instalar as dependências necessárias. 
 
  ``` npm install ``` 
@@ -52,10 +56,6 @@ Agora é possível testar a aplicação e ainda reutilizar o codigo fonte, modif
 Depois de tudo instalado, é preciso subir o sevridor, que está configurado utilizando Express, no arquivo app.js, que se encontra na raiz do projeto. O comando para tal ação é:
 
 ``` npm start ```
-
-Caso prefira usar o Nodemon, para testar a aplicação enquanto ajusta o código, no lugar do comando anterior, você deve usar o comando:
-
-``` npm run dev ```
 
 
 ## Exemplos de Rotas
