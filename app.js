@@ -3,7 +3,7 @@ import * as dotenv from "dotenv";
 import DicasController from './src/controllers/dicas-controller.js'
 
 dotenv.config();
-const porta = 3000;
+const porta = process.env.PORT || 3000;
 const app = express();
 
 app.listen(porta, () => {
